@@ -14,7 +14,6 @@
       ],
       "@thehen/decentraland-unlock-integration": [
         "node_modules/@thehen/decentraland-unlock-integration/dist/index.d.ts",
-        "../Decentraland/dist/index.d.ts"
       ],
       "@dcl/ui-scene-utils": [
         "node_modules/@dcl/ui-scene-utils/dist/index.d.ts"
