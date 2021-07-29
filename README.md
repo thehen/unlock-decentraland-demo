@@ -1,24 +1,25 @@
-# wearables-scanner
+<div align="center">
+  <img src="https://github.com/thehen/decentraland-unlock-integration/blob/readme/docs/img/logo.png?raw=true"><br><br>
+  <h1>
+    Decentraland Unlock Demo
+  </h1>
 
-A simple scene that shows how to fetch player wearable data to match against a criteria. In this case, only players wearing eyewear are allowed in.
+<p align="center">
+  <a href="https://badge.fury.io/js/%40thehen%2Fdecentraland-unlock-integration"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License Apache 2.0" height="18"></a>
+</p>
 
-![](screenshot/scanner.gif)
+</div>
+
+A simple demo showcasing the [Unlock Integration library](https://github.com/thehen/decentraland-unlock-integration). You can click on a door to bring up an Unlock dialog. After pressing **purchase**, a transaction is made and the user acquires a membership. The door then opens, and the player can enter the building.
+
+![Demo](https://github.com/thehen/unlock-decentraland-demo/blob/readme/docs/img/demo.gif?raw=true)
 
 This scene shows you:
 
-- How to use the crypto utils library
-- How to fetch the wearables currently worn by a player
-- How to handle async functions
-- How to delay an action with the utils library
-- How to define the elements of a scene as game objects, with state and functions
+- How to use the Decentraland Unlock Integration library
+- How to purchase an Unlock membership
+- How to listen to events and have the environment react
 
-The crypto Utils function makes it a lot simpler to perform blockchain functions. Here we're querying the player's wearable items that are being equipped, and also fetching the full list of Decentraland wearables. We then match both these lists up to obtain more information about each of the wearables that the player has equipped, and check if any of these belongs to the 'eyewear' category.
-
-You could similarly do different queries, like check for a specific wearable item by name, or check for any item of 'mythic' rarity.
-
-Feel free to reuse the models and code from this scene!
-
-> Note: The crtpyo-utils library is currently a work in progress and has issues that need to be resolved. It's not yet published on npm, but you can copy what's been done in the `package.json` file of this repository.
 
 ## Try it out
 
@@ -46,10 +47,12 @@ Any dependencies are installed and then the CLI opens the scene in a new browser
 
 For example, if the URL is `http://127.0.0.1:8000?position=0%2C0&SCENE_DEBUG_PANEL`, make it `http://127.0.0.1:8000?position=0%2C0&SCENE_DEBUG_PANEL&ENABLE_WEB3`
 
-Learn more about how to build your own scenes in our [documentation](https://docs.decentraland.org/) site.
-
-If something doesn’t work, please [file an issue](https://github.com/decentraland-scenes/Awesome-Repository/issues/new).
+Learn more about how to build your own scenes in the Decentraland [documentation](https://docs.decentraland.org/) site.
 
 ## Copyright info
 
 This scene is protected with a standard Apache 2 licence. See the terms and conditions in the [LICENSE](/LICENSE) file.
+
+## Support
+
+If you have any questions, feel free to join the [Unlock Discord Server](https://docs.unlock-protocol.com/creators/plugins-and-integrations/discord) and I'll be happy to help.
