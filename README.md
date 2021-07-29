@@ -47,7 +47,9 @@ Any dependencies are installed and then the CLI opens the scene in a new browser
 
 For example, if the URL is `http://127.0.0.1:8000?position=0%2C0&SCENE_DEBUG_PANEL`, make it `http://127.0.0.1:8000?position=0%2C0&SCENE_DEBUG_PANEL&ENABLE_WEB3`
 
-Learn more about how to build your own scenes in the Decentraland [documentation](https://docs.decentraland.org/) site.
+Finally ensure you're connected to the Rinkeby Test Network in your wallet of choice. 
+
+![Rinkeby](https://github.com/thehen/unlock-decentraland-demo/blob/master/docs/img/rinkeby.jpg?raw=true)
 
 ## Copyright info
 
