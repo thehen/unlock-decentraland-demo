@@ -11,6 +11,13 @@
       ],
       "eth-connect": [
         "node_modules/eth-connect/eth-connect.d.ts"
+      ],
+      "@thehen/decentraland-unlock-integration": [
+        "node_modules/@thehen/decentraland-unlock-integration/dist/index.d.ts",
+        "../Decentraland/dist/index.d.ts"
+      ],
+      "@dcl/ui-scene-utils": [
+        "node_modules/@dcl/ui-scene-utils/dist/index.d.ts"
       ]
     },
     "baseUrl": "."

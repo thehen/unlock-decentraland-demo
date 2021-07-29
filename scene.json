@@ -18,6 +18,9 @@
     "type": "webrtc",
     "signalling": "https://signalling-01.decentraland.org"
   },
+  "requiredPermissions": [
+    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
+  ],
   "policy": {
     "contentRating": "E",
     "fly": true,
